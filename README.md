@@ -4,7 +4,7 @@
  Write a service broker for cloud foundry that provides a HashMap to be used by CF applications.
 Once the service broker is registered on CF any application developed for CF should be able to use the service.
 
-## Prerequisite
+## Pre-Requisite
 Java 1.7 or higher Pivotal Cloud Foundary PCF DEV MYSQL CF CLI VirtualBox: 5.0+
 
 ## Steps
