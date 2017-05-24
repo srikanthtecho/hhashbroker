@@ -13,10 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.hashmap.service.broker.service.HashMapBrokerService;
 
-/**
- * @author Shyamjumberu
- *
- */
+
 public class HashMapServiceBrokerController {
 
 	@Autowired
@@ -45,7 +42,7 @@ public class HashMapServiceBrokerController {
 	 * @param value
 	 * @return
 	 */
-	@RequestMapping(value = "/hash/{instanceId}/{key}", method = RequestMethod.PUT)
+	@RequestMapping(value = "/hash/{in	stanceId}/{key}", method = RequestMethod.PUT)
 	public ResponseEntity<String> put(@PathVariable("instanceId") String instanceId, @PathVariable("key") String key,
 			@RequestBody String value) {
 		mapBrokerService.put(instanceId, key, value);

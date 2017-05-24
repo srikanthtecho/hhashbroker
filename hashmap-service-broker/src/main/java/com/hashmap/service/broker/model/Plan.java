@@ -2,11 +2,7 @@ package com.hashmap.service.broker.model;
 
 import javax.persistence.*;
 
-/**
- * 
- * @author Shyamjumberu
- *
- */
+
 @Entity
 @Table(name = "plans")
 public class Plan {

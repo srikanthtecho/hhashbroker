@@ -6,11 +6,10 @@ package com.hashmap.service.broker.service;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.hashmap.service.broker.util.CustomHashMap;
+import org.springframework.stereotype.Component;
 
-/**
- * @author shyamjumberu
- *
- */
+
+@Component
 public class HashMapBrokerService {
 
 

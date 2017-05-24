@@ -1,11 +1,7 @@
 package com.hashmap.service.broker.client.connector;
 
 import org.springframework.cloud.service.BaseServiceInfo;
-/**
- * 
- * @author Shyamjumberu
- *
- */
+
 public class HashServiceInfo extends BaseServiceInfo {
 	
     private final String uri;

@@ -5,11 +5,7 @@ import org.springframework.cloud.cloudfoundry.Tags;
 
 import java.util.Map;
 
-/**
- * 
- * @author Shyamjumberu
- *
- */
+
 public class HashServiceInfoCreator extends CloudFoundryServiceInfoCreator<HashServiceInfo> {
 	
     public HashServiceInfoCreator() {

@@ -15,10 +15,6 @@ import org.springframework.web.client.RestTemplate;
 
 import com.hashmap.service.broker.client.connector.HashServiceInfo;
 
-/**
- * @author Shyamjumberu
- *
- */
 @RestController
 public class ServiceBrokerClientController {
 	@Autowired

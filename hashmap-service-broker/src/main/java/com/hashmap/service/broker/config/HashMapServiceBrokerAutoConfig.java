@@ -9,10 +9,7 @@ import org.springframework.cloud.CloudFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * @author shyamjumberu
- *
- */
+
 @Configuration
 @EnableAutoConfiguration
 public class HashMapServiceBrokerAutoConfig {

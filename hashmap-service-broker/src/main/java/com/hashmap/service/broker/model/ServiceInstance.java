@@ -8,11 +8,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-/**
- * 
- * @author Shyamjumberu
- *
- */
+
 @Entity
 @Table(name="service_instances")
 @JsonAutoDetect(getterVisibility = JsonAutoDetect.Visibility.NONE)

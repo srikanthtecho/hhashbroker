@@ -3,11 +3,7 @@ package com.hashmap.service.broker.model;
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
-/**
- * 
- * @author Shyamjumberu
- *
- */
+
 @Entity
 @Table(name = "services")
 public class Service {

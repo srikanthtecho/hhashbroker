@@ -5,12 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.hashmap.service.broker.model.ServiceBinding;
 
-
-/**
- * 
- * @author Shyamjumberu
- *
- */
 @Repository
 public interface ServiceBindingRepository extends CrudRepository<ServiceBinding,String> {
 }

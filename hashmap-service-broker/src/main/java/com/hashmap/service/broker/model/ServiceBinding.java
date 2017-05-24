@@ -5,15 +5,11 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 import javax.persistence.*;
-/**
- * 
- * @author Shyamjumberu
- *
- */
+
 @Entity
 @Table(name = "service_bindings")
 @JsonAutoDetect(getterVisibility = JsonAutoDetect.Visibility.NONE)
-public class ServiceBinding {
+public class   ServiceBinding {
 
     @Id
     private String id;

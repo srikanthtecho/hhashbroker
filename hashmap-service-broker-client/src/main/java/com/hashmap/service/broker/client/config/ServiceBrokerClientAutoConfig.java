@@ -21,10 +21,7 @@ import org.springframework.web.client.RestTemplate;
 
 import com.hashmap.service.broker.client.connector.HashServiceInfo;
 
-/**
- * @author Shyamjumberu
- *
- */
+
 @Configuration
 @EnableAutoConfiguration
 public class ServiceBrokerClientAutoConfig {
